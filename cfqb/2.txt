@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* Основные стили для сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background-color: #6f7b3b; /* Оливковый */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Главная секция */
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    color: #6f7b3b; /* Оливковый */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Секции */
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #6f7b3b;
+}
+
+/* Карточки автомобилей */
+.catalog .car-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-item {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.car-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.car-item p {
+    color: #555;
+}
+
+.car-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6f7b3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.car-item a:hover {
+    text-decoration: underline;
+}
+
+/* Услуги */
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Подвал */
+footer {
+    background-color: #6f7b3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
